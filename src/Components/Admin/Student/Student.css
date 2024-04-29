@@ -1,0 +1,12 @@
+.content{
+    display: flex;
+    /* padding-left:70px; */
+    height: 40px;
+    
+}
+
+.content button{
+    align-items: center;
+    /* width: fit-content; */
+    padding-bottom: 33px;
+}

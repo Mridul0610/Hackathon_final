@@ -1,0 +1,99 @@
+/* Add the following styles to your existing stylesheet */
+
+.login1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url('https://img.freepik.com/premium-photo/binary-background-hackathon-other-digital-events-fallen-zero-numbers-with-matrix-effect-futuristic-metaverse_10221-14123.jpg');
+    background-size: cover;
+  }
+  
+  .login-container {
+    position: relative;
+    width: 24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .form-container {
+    border: 1px solid hsla(0, 0%, 65%, 0.158);
+    box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    z-index: 99;
+    padding: 2rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    height: 450px;
+    width: 700px;
+  }
+  
+  
+  .opacity {
+    opacity: 0.6;
+  }
+  
+  form {
+    width: 100%;
+    color: white;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--color);
+  }
+  
+  input {
+    display: block;
+    padding: 14.5px;
+    width: 100%;
+    margin: 0.5rem 0 1.5rem 0;
+    outline: none;
+    background-color: #E8F0FE;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+    backdrop-filter: blur(15px);
+  }
+  
+  button {
+    background-color: #E8F0FE ;
+    color: black;
+    display: block;
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    width: 30%;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    border: none;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+  }
+  
+  
+  .theme-btn-container {
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+  }
+  /* .loginback{
+    display: flex;
+  } */
+  
